@@ -9,10 +9,11 @@ namespace CheckWebApp.Data
 {
     public class CheckWebAppDbContext:DbContext
     {
-        public CheckWebAppDbContext()
+        public CheckWebAppDbContext(DbContextOptions options) : base (options)
         {
-           public DbSet<Restaurant> Restaurants { get; set; }
                 
         }
+
+        public DbSet<Restaurant> Restaurants { get; set; }
     }
 }
