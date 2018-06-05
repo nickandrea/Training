@@ -9,3 +9,14 @@ C:\Users\212546993\Documents\ProjectsCode\NETCore Examples\CheckWebApp\CheckWebA
 C:\Users\212546993\Documents\ProjectsCode\NETCore Examples\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.AssemblyInfo.cs
 C:\Users\212546993\Documents\ProjectsCode\NETCore Examples\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.dll
 C:\Users\212546993\Documents\ProjectsCode\NETCore Examples\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.pdb
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\bin\Debug\netcoreapp2.0\CheckWebApp.deps.json
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\bin\Debug\netcoreapp2.0\CheckWebApp.runtimeconfig.json
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\bin\Debug\netcoreapp2.0\CheckWebApp.runtimeconfig.dev.json
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\bin\Debug\netcoreapp2.0\CheckWebApp.dll
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\bin\Debug\netcoreapp2.0\CheckWebApp.pdb
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.csprojAssemblyReference.cache
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.csproj.CoreCompileInputs.cache
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.AssemblyInfoInputs.cache
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.AssemblyInfo.cs
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.dll
+C:\Users\212546993\Documents\ProjectsCode\Training\CheckWebApp\CheckWebApp\obj\Debug\netcoreapp2.0\CheckWebApp.pdb

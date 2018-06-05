@@ -44,5 +44,25 @@ namespace CheckWebApp.Controllers
             var model = restaurantDataSource.getAll();
             return View("Restaurant",model);
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(RestaurantEditModel _restaurant)
+        {
+            if (ModelState.IsValid)
+            {
+                Restaurant newRestaurant = new Restaurant();
+                newRestaurant.Name = _restaurant.Name;
+                newRestaurant.Cuisine = _restaurant.Cuisine;
+                newRestaurant = restaurantDataSource.Add(newRestaurant);
+                return RedirectToAction("Details", new { id = newRestaurant.Id });
+            }
+            else return View();
+        }
     }
 }

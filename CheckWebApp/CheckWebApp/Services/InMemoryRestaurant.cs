@@ -15,9 +15,9 @@ namespace CheckWebApp.Services
         {
             restaurants = new List<Restaurant>
             {
-                new Restaurant { Id=1, Name="Maria la zozza"},
-                new Restaurant { Id = 2, Name = "Cavour 21" },
-                new Restaurant { Id=3, Name="Il Polpo affogato"}
+                new Restaurant { Id=1, Name="Maria la zozza", Cuisine=Cuisine.French},
+                new Restaurant { Id = 2, Name = "Cavour 21", Cuisine=Cuisine.Italian },
+                new Restaurant { Id=3, Name="Il Polpo affogato", Cuisine=Cuisine.Greek}
             };
         }
 
@@ -29,6 +29,13 @@ namespace CheckWebApp.Services
         public IEnumerable<Restaurant> getAll()
         {
             return restaurants.OrderBy(r => r.Name);
+        }
+
+        public Restaurant Add(Restaurant _restaurant)
+        {
+            _restaurant.Id = restaurants.Max(r => r.Id) + 1;
+            restaurants.Add(_restaurant);
+            return _restaurant;
         }
 
     }

@@ -10,5 +10,6 @@ namespace CheckWebApp.Services
     {
         IEnumerable<Restaurant> getAll();
         Restaurant get(int id);
+        Restaurant Add(Restaurant newRestaurant);
     }
 }

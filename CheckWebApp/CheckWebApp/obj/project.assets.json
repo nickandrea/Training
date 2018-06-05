@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\212546993\\Documents\\ProjectsCode\\NETCore Examples\\CheckWebApp\\CheckWebApp\\CheckWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\212546993\\Documents\\ProjectsCode\\Training\\CheckWebApp\\CheckWebApp\\CheckWebApp.csproj",
       "projectName": "CheckWebApp",
-      "projectPath": "C:\\Users\\212546993\\Documents\\ProjectsCode\\NETCore Examples\\CheckWebApp\\CheckWebApp\\CheckWebApp.csproj",
+      "projectPath": "C:\\Users\\212546993\\Documents\\ProjectsCode\\Training\\CheckWebApp\\CheckWebApp\\CheckWebApp.csproj",
       "packagesPath": "C:\\Users\\212546993\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\212546993\\Documents\\ProjectsCode\\NETCore Examples\\CheckWebApp\\CheckWebApp\\obj\\",
+      "outputPath": "C:\\Users\\212546993\\Documents\\ProjectsCode\\Training\\CheckWebApp\\CheckWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
