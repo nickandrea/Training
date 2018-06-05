@@ -1,0 +1,22 @@
+﻿@using CheckWebApp.Models
+@using CheckWebApp.ViewModels
+
+@model HomeIndexViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@Model.CurrentMessage</h1>
+    <table>
+        @foreach (Restaurant r in Model.Restaurants)
+        {
+            <tr>
+                <td>@r.Id</td>
+                <td>@r.Name</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
