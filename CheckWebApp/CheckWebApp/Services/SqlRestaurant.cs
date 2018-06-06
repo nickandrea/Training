@@ -12,8 +12,9 @@ namespace CheckWebApp.Services
 
        CheckWebAppDbContext dbContext;
 
-        public SqlRestaurant()
+        public SqlRestaurant(CheckWebAppDbContext _dbContext)
         {
+            dbContext = _dbContext;
             
         }
 
